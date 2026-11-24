@@ -370,7 +370,10 @@ function! s:PickFile(list_command, vim_command, ...) abort
             endif
         endif
 
-        exec l:self.vim_command fnameescape(selection)
+        try
+            exec l:self.vim_command fnameescape(selection)
+        catch /E37/
+        endtry
 
         " Go to the line and column if possible.
         try
