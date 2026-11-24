@@ -1,12 +1,5 @@
 <p align="center"><img src="images/vim-picker.png" width=300></p>
 
-> [!NOTE]
->
-> vim-picker is no longer actively maintained. It is implemented and configured
-> in Vimscript as it was developed before the addition of the Lua API to Neovim,
-> and predates Neovim features such as floating windows. If you're looking for a
-> modern fuzzy picker for Neovim, [Telescope][telescope] is a popular choice.
-
 [vim-picker] is a fuzzy picker for [Neovim] and [Vim].
 
 <p align="center">
